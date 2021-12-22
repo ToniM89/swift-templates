@@ -1,2 +1,2 @@
 # swift-templates
-Contains some reusable swift code snippets
+Contains some reusable SwiftUI code snippets
