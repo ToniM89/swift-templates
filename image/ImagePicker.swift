@@ -11,10 +11,10 @@ struct ImagePicker: UIViewControllerRepresentable {
         }
         
         func picker(_ picker: PHPickerViewController, didFinishPicking results: [PHPickerResult]) {
-            // Tell the picker to go away
+            // tell the picker to go away
             picker.dismiss(animated: true)
             
-            // Exit if no selection was made
+            // exit if no selection was made
             guard let provider = results.first?.itemProvider else { return }
             
             
